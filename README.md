@@ -4,7 +4,6 @@
 
 ![Screenshot of Charted](screenshot.png)
 
----
 
 ## ✨ Features
 
@@ -15,7 +14,6 @@
 - Data stored in `localStorage`
 - Responsive design, works on mobile and desktop
 
----
 
 ## 🚀 Getting Started
 
@@ -37,22 +35,19 @@ Or use Python: python3 -m http.server
 
 Or with npx: Run  npx serve .
 
----
 
-🧠 Tech Stack
+## 🧠 Tech Stack
 	•	HTML + CSS + Vanilla JavaScript
 	•	D3.js for rendering the map
 	•	TopoJSON for compressed geographic data
 	•	LocalStorage for persistence
 
----
 
-📄 License
+## 📄 License
 
 MIT — feel free to use and modify!
 
----
 
-✈️ Author
+## ✈️ Author
 
 Built by Kate – inspired by the joy of tracking travels and dreaming of where to go next.
