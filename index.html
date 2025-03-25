@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charted</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Charted</h1>
+    <div id="map"></div>
+    <div class="stats">
+      <p><span id="visitedCount">0</span> of <span id="totalCount">0</span> countries visited</p>
+      <p><span id="percentage">0%</span> of the world</p>
+      <button id="reset">Reset Map</button>
+    </div>
+    <div class="manual-action">
+        <input type="text" id="countryInput" placeholder="Enter country name" />
+        <button id="addCountry">Add</button>
+        <button id="removeCountry">Remove</button>
+      </div>
+  </div>
+  <div id="tooltip" class="tooltip" style="opacity: 0;"></div>
+  <script src="script.js"></script>
+</body>
+</html>
